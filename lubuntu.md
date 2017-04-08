@@ -74,6 +74,15 @@ sudo dpkg -i rstudio-1.0.136-amd64.deb
 sudo bash Anaconda3-4.3.1-Linux-x86_64.sh
 ```
 
+## Install Anaconda Navigator
+
+```bash
+cd /usr/anaconda3
+sudo chown john * -R
+conda install anaconda-navigator
+```
+
+
 ## Source:
 - [Installing latest version of R-base](http://askubuntu.com/questions/218708/installing-latest-version-of-r-base)
 - [RStudio installation failure under Debian sid: libgstreamer dependency problems](http://stackoverflow.com/questions/37550993/rstudio-installation-failure-under-debian-sid-libgstreamer-dependency-problems)
