@@ -89,9 +89,13 @@ sudo dpkg -i rstudio-1.0.136-amd64.deb
 
 ## Install Anaconda
 
+"The Anaconda3 installers are based on Python 3.6. Anaconda 4.3 supports Python 2.7, 3.4, 3.5 and 3.6. Anaconda 4.3 will be the last release which supports Python 3.4. We will discontinue regular Python 3.4 package updates in the next release." [What’s new in Anaconda 4.3?](https://docs.continuum.io/anaconda/#what-s-new-in-anaconda-4-3)
+
 ```bash
 sudo bash Anaconda3-4.3.1-Linux-x86_64.sh
 ```
+
+"After you install Anaconda or Miniconda, you’ll choose to work with either Anaconda Navigator (if you prefer a desktop graphical user interface), or conda (if you prefer to use a command prompt or terminal program). You can even switch between the two." [Navigator or conda?](https://docs.continuum.io/anaconda/#navigator-or-conda)
 
 ## Install Anaconda Navigator
 
@@ -100,6 +104,8 @@ cd /usr/anaconda3
 sudo chown john * -R
 conda install anaconda-navigator
 ```
+
+"Anaconda supports Python 2.7, 3.4, and 3.5. The default is Python 2.7 or 3.5, depending on which installer you used. If the installer you used is Anaconda or Miniconda, the default is 2.7. If the installer you used is Anaconda3 or Miniconda3, the default is 3.5." [Create Python 2 or 3 environments](https://conda.io/docs/py2or3.html#create-python-2-or-3-environments)
 
 ## Create Python 2.7 environment
 
